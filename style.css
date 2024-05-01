@@ -1,0 +1,37 @@
+html, body {
+    background-color: hsl(350, 100%, 88%); /* Đặt màu nền cho toàn trang là màu hồng */
+    height: 100%; /* Đảm bảo chiều cao toàn trang */
+    margin: 0; /* Xóa các khoảng cách mặc định */
+    padding: 0; /* Xóa padding mặc định */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Đảm bảo body ít nhất chiếm toàn bộ chiều cao trình duyệt */
+}
+
+.wrapper {
+    text-align: center;
+    width: 80%; /* Chiều rộng của wrapper là 80% màn hình */
+    padding: 20px; /* Đệm xung quanh nội dung */
+    box-shadow: 0px 0px 10px 0px rgba(211, 164, 109, 0.1); /* Thêm bóng cho khung */
+    background-color: hsl(350, 100%, 88%); /* Màu nền cho khung là trắng */
+    border-radius: 10px; /* Bo tròn góc của khung */
+}
+
+.btn-group .yes-btn {
+    background-color: #f78fb3; /* Màu nền cho nút là màu hồng nhạt */
+    color: white; /* Màu chữ trên nút là trắng */
+    border: none; /* Không viền */
+    padding: 10px 20px; /* Đệm cho nút */
+    font-size: 16px; /* Cỡ chữ */
+    border-radius: 5px; /* Bo tròn góc nút */
+    cursor: pointer; /* Con trỏ khi di chuột vào */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển màu nền */
+}
+
+.btn-group .yes-btn:hover {
+    background-color: #f50057; /* Đổi màu nền của nút khi di chuột vào */
+}
